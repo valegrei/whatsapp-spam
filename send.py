@@ -19,7 +19,6 @@ def read_file(path: str):
 message = read_file('msg.txt')
 numbers = read_file_lines('numbers.txt')
 
-print(message)
 #Procede a abrir Whatsapp
 messenger = WhatsApp();
 
